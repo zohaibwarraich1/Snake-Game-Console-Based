@@ -1,8 +1,12 @@
 # Snake-Game-Console-Based
 This Snake Game project, developed by Muhammad Zohaib Warraich, is a classic implementation of the Snake game using C++. The game features a dynamic and interactive environment where the player controls a snake to consume fruits, with each consumption increasing the snake's length and the player's score.
+
 Features:
-User Input Handling: The game utilizes the <iostream> library for input and output operations and <unistd.h> for controlling the speed of the snake.
-Randomized Fruit Placement: Fruits are placed at random positions on the grid using the rand() function.
+
+User Input Handling: 
+                      The game utilizes the <iostream> library for input and output operations and <unistd.h> for controlling the speed of the snake.
+Randomized Fruit Placement: 
+                            Fruits are placed at random positions on the grid using the rand() function.
 Dynamic Tail Growth: The snake's tail grows dynamically as it consumes fruits, with positions stored in dynamically allocated arrays to ensure efficient memory management.
 Game Setup and Control: The game initializes with a fixed grid size and starting positions for the snake and fruit. Players can start the game, control the snake's direction, and quit at any time.
 Collision Detection: The game checks for collisions with the grid boundaries to determine when the game is over.
